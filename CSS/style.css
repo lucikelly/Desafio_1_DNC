@@ -1,0 +1,97 @@
+*{
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+#cabecalho{
+  background-color: #303030;
+  color: #FFFFFF;
+}
+
+.titulo{
+  padding: 180px 0px 0px 65px;
+  font-weight: 600;
+  font-size: 55px;
+}
+
+.slogan{
+  padding: 0px 0px 140px 65px;
+  font-size: 20px;
+  font-weight: 500;
+}
+#informativo{
+  padding: 40px 40px 40px 150px;
+  background-color: #F9F9F9;
+  display: grid;
+  grid-auto-flow: column;
+
+}
+.titulos-informativos{
+  font-weight: 600;
+  font-size: 30px;
+}
+
+#descritivo{
+  padding: 60px 0px 65px 65px;
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+
+}
+
+#descritivo h3 {
+  font-size: 30px;
+  font-weight: 500;
+}
+#descritivo p{
+  font-size: 20px;
+  font-weight: 300;
+}
+
+#formulario{
+  background-color: #303030;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 65px;
+}
+#formulario h4{
+  margin-bottom: 30px;
+  font-size: 32px;
+  font-weight: 700;
+
+}
+
+.input{
+  margin-bottom: 30px;
+  margin-top: 20px;
+  width: 508px;
+  height:54px;
+  border: none;
+  border-radius: 8px;
+  background-color: #FFFFFF;
+  padding-left: 20px;
+}
+
+.btn{
+  margin-top: 20px;
+  width: 286px;
+  height:54px;
+  border: none;
+  border-radius: 8px;
+  background-color: #C07212;
+  color: #FFFFFF;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  
+}
+.btn:hover{
+  cursor: pointer;
+  background-color: #ce7c18;
+  color: white;
+  transform: translateY(-7px);
+  box-shadow: 0px 15px 20px #0f143a98 ;
+  transition-duration: 0.3s;
+}
